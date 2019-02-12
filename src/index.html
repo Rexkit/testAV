@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+</head>
+<body>
+    <div class="overflow-wrapper">
+        <header class="header">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="/"><img class="logo__img" src="./img/site-logo.png" alt="logo"></a>
+                </div>
+                <div class="main-nav__options">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_active" href="/">Частным лицам</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link" href="/">Бизнесу</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav__menu">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Услуги</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">О нас</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Блог</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Вопросы</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="./contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn__main-nav">Задать вопрос</button>
+            </nav>
+            <a href="javascript:void(0);" class="header__icon" onclick="resp()"><span class="main-nav__text">Меню</span><img src="./img/Group.png" alt="icon"></a>
+        </header>
+        <main>
+            <section class="main-info">
+                <div class="main-wrapper main-info__wrapper">
+                    <h1 class="main-info__header">Мы служба дистанционной психологической помощи.</h1>
+                    <p class="main-info__textbox">Мы команда психологов, психотерапевтов, менеджеров и других 
+                        специалистов – созданы для того, чтобы помочь любому человеку 
+                        стать хотя бы немного счастливее.</p>
+                    <button class="btn btn__main-info">Подробнее</button>
+                </div>
+            </section>
+            <section class="situations">
+                <h2 class="situations__header">В каких ситуациях можно обратиться к нам</h2>
+                <div class="situations__menu">
+                    <div class="situations__wrapper">
+                        <div class="situations__item">Кризис</div>
+                        <div class="situations__item situations__item_active">Семья</div>
+                        <div class="situations__item">Дети</div>
+                        <div class="situations__item">Коммуникация</div>
+                        <div class="situations__item">Мужчина и женщина</div>
+                        <div class="situations__item">Развитие</div>
+                    </div>
+                </div>
+                <div class="main-wrapper">
+                    <div class="situation situation_hidden">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                    1.Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="situation">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="situation situation_hidden">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                    2.Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="situation situation_hidden">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                    3.Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="situation situation_hidden">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                    4.Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="situation situation_hidden">
+                        <div class="situation__img"><img src="./img/family.png" alt="family"></div>
+                        <div class="situation__info">
+                            <p class="situation__about">
+                                    5.Поможем в поиске путей разрешения бытового семейного конфликта, найти и устранить причины конфликтов. сгладить проблемы поколений. Поможем восстановить целостность семьи.
+                            </p>
+                            <ul class="situation__problems">
+                                <li class="situation__problem">Переживание потери близких.</li>
+                                <li class="situation__problem">Стресс, Апатия, Тревоги.</li>
+                                <li class="situation__problem">Страхи, Проблемы здоровья</li>
+                                <li class="situation__problem">Кризисы возраста</li>
+                                <li class="situation__problem">Зависимости и вредные привычки</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work-info">
+                <div class="main-wrapper">
+                    <h1 class="work-info__header">Как мы работаем</h1>
+                    <div class="work-info__carousel">
+                        <div class="work-info__wrapper">
+                            <div class="work-info__card">
+                                <div class="work-info__img"><img src="./img/work1.png" alt="work1"></div>
+                                <div class="work-info__info">
+                                    <h3 class="work-info__name">Удобно</h3>
+                                    <p class="work-info__text">Мы оказываем преимущественно дистанционные консультации – по телефону или через skype. Такой вид консультаций по своей результативности является ничем не хуже очной. Кроме того, вы экономите время на дорогу и не заботитесь о том, как вы выглядите и вообще можете находиться, где угодно. </p>
+                                </div>
+                            </div>
+                            <div class="work-info__card">
+                                <div class="work-info__img"><img src="./img/work_2.png" alt="work2"></div>
+                                <div class="work-info__info">
+                                    <h3 class="work-info__name">Эффективно</h3>
+                                    <p class="work-info__text">Мы не обещаем чуда, но предлагаем увидеть жизненные альтернативы и научиться их реализовывать. В отличие от телефона доверия, где коммуникаций носит разовый характер и направлена на разрешение кризиса сиюминутно, мы готовы «вести» человека, пройти с ним вместе сложный жизненный этап или переосмыслить ситуацию в поисках того пути, которые наиболее ему подходит.</p>
+                                </div> 
+                            </div>
+                            <div class="work-info__card">
+                                <div class="work-info__img"><img src="./img/work_3.png" alt="work3"></div>
+                                <div class="work-info__info">
+                                    <h3 class="work-info__name">Конфиденциально</h3>
+                                    <p class="work-info__text">Многие люди уже получили помощь у нас. Иногда мы приводим примеры реальных случаев потому, что многие могут себя в них узнать, примерить на себя и ознакомиться с ценными наблюдениями психологов. Однако основная индивидуальная работа начнется при личном обращении. Мы позаботимся о том, чтобы все осталось строго между нами.</p>
+                                </div>
+                            </div>
+                            <div class="work-info__card">
+                                <div class="work-info__img"><img src="./img/work_4.png" alt="work4"></div>
+                                <div class="work-info__info">
+                                    <h3 class="work-info__name">С пониманием</h3>
+                                    <p class="work-info__text">Мы не считаем потребность в помощи слабостью или изъяном. Если мы и оцениваем обращение человека за помощью, то скорее как естественный шаг, говорящий о его готовности к переменам и развитию.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-next__wi" style="color:black; background-color:black;"></div>
+                        <div class="button-prev__wi"></div>
+                        <div class="pagination__wi"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="staff">
+                <h2 class="staff__header">Наши специалисты</h2>
+                <div class="staff__wrapper">
+                    <div class="staff__card">
+                        <img src="./img/staff.PNG" alt="" class="staff__photo">
+                        <p class="staff__position">Психотерапевт</p>
+                        <p class="staff__name">Елизавета Сергеевна</p>
+                        <p class="staff__info">Опыт работы: 25 лет<br>
+                                Окончил Ярославский медицинский университет.<br> Работал в поликлинике №2. Врачом стать мечтал, эта профессия нравится потому, что она нужна людям. </p>
+                    </div>
+                    <div class="staff__card">
+                        <img src="./img/staff.PNG" alt="" class="staff__photo">
+                        <p class="staff__position">Психотерапевт</p>
+                        <p class="staff__name">Елизавета Сергеевна</p>
+                        <p class="staff__info">Опыт работы: 25 лет<br>
+                                Окончил Ярославский медицинский университет.<br> Работал в поликлинике №2. Врачом стать мечтал, эта профессия нравится потому, что она нужна людям. </p>
+                    </div>
+                    <div class="staff__card">
+                        <img src="./img/staff.PNG" alt="" class="staff__photo">
+                        <p class="staff__position">Психотерапевт</p>
+                        <p class="staff__name">Елизавета Сергеевна</p>
+                        <p class="staff__info">Опыт работы: 25 лет<br>
+                                Окончил Ярославский медицинский университет.<br> Работал в поликлинике №2. Врачом стать мечтал, эта профессия нравится потому, что она нужна людям. </p>
+                    </div>
+                    <div class="staff__card">
+                        <img src="./img/staff.PNG" alt="" class="staff__photo">
+                        <p class="staff__position">Психотерапевт</p>
+                        <p class="staff__name">Елизавета Сергеевна</p>
+                        <p class="staff__info">Опыт работы: 25 лет<br>
+                                Окончил Ярославский медицинский университет.<br> Работал в поликлинике №2. Врачом стать мечтал, эта профессия нравится потому, что она нужна людям. </p>
+                    </div>
+                </div>
+                <div class="button-next__staff"></div>
+                <div class="button-prev__staff"></div>
+                <div class="pagination__staff"></div>
+            </section>
+            <section class="blog">
+                <div class="blog__wrapper">
+                    <div class="blog__header">
+                        <p class="blog__title">Блог</p>
+                        <p class="blog__all">Все статьи</p>
+                    </div>
+                    <div class="blog__card-wrapper">
+                        <div class="blog__card">
+                            <div class="blog__photo"><img src="./img/blog1.PNG" alt="blog1"></div>
+                            <div class="blog__info-wrapper">
+                                <p class="blog__name">Итак, вы хотите принимать 
+                                    деньги</p>
+                                <p class="blog__text">Как принимать платежи наличными, 
+                                    картой и в интернете. ФЗ-54 и не только</p>
+                            </div>
+                        </div>
+                        <div class="blog__card">
+                            <div class="blog__photo"><img src="./img/blog2.PNG" alt="blog2"></div>
+                            <div class="blog__info-wrapper">
+                                <p class="blog__name">Итак, вы хотите принимать 
+                                    деньги</p>
+                                <p class="blog__text">Как принимать платежи наличными, 
+                                    картой и в интернете. ФЗ-54 и не только</p>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+            <section class="companies">
+                <h2 class="companies__header">Нам доверяют</h2>
+                <div class="main-wrapper">
+                    <div class="companies__img-collection">
+                        <div class="companies__img"><img src="./img/logotip1.png" alt=""></div>
+                        <div class="companies__img"><img src="./img/logotip2.png" alt=""></div>
+                        <div class="companies__img"><img src="./img/logotip3.png" alt=""></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="main-wrapper footer__wrapper">
+                <div class="footer__menu">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Услуги</a></li>
+                        <li class="footer__item"><a class="footer__link footer__link_menu" href="/">О нас</a></li>
+                        <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Блог</a></li>
+                        <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Вопросы</a></li>
+                        <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Контакты</a></li>
+                    </ul>  
+                </div>
+                <div class="footer__info">
+                    <div class="footer__copyright">
+                        <p class="footer__text">© 2017, ООО «Международный Психологический Центр»</p>
+                        <a class="footer__text-link" href="/">Конфидициальность</a>
+                    </div>
+                    <div class="footer__logo">
+                        <span class="footer__t">Разработанно</span>
+                        <img src="./img/appvelox.png" alt="">
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <div class="footer__social-header">Мы в соцетях</div>
+                    <div class="footer__social-links">
+                        <a class="fb" href="fb.com">
+                            <img src="./img/facebook1.svg" alt="fb1">
+                            <img class="fb-img" src="./img/facebook.svg" alt="fb">
+                        </a>
+                        <a class="vk" href="vk.com">
+                            <img src="./img/vk1.svg" alt="vk1">
+                            <img class="vk-img" src="./img/vk.svg" alt="vk">
+                        </a>
+                        <a class="insta" href="instagram.com">
+                            <img src="./img/insta1.svg" alt="insta1">
+                            <img class="insta-img" src="./img/insta.svg" alt="insta">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__payment">
+                    <div class="footer__payment-header">Мы принимаем</div>
+                    <div class="footer__payment-links">
+                        <a href="fb.com"><img src="./img/yandex.svg" alt="yandex"></a>
+                        <a href="vk.com"><img src="./img/visa.svg" alt="visa"></a>
+                        <a href="instagram.com"><img src="./img/mastercard.svg" alt="mastercard"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>  
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script src="./js/carousel.js"></script>
+    <script src="./js/headerScroll.js"></script>
+    <script src="./js/situation-slide.js"></script>
+    <script src="./js/headerDropdown.js"></script>
+</body>
+</html>

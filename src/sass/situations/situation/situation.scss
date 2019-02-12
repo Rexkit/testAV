@@ -1,0 +1,33 @@
+.situation {
+    padding: 68px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &_hidden {
+        display: none;
+    }
+
+    &__info {
+        width: 695px;
+    }
+
+    &__about {
+        font-size: 2rem;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    &__problems {
+        list-style: none;
+    }
+
+    &__problem {
+        display: inline;
+        margin-right: 25px;
+        opacity: 0.5;
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        line-height: 31px;
+    }
+}

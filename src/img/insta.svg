@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.8237062%" id="linearGradient-1">
+            <stop stop-color="#7024C4" offset="0%"></stop>
+            <stop stop-color="#C21975" offset="37.4325606%"></stop>
+            <stop stop-color="#C21975" offset="68.5066252%"></stop>
+            <stop stop-color="#E09B3D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Services-Copy-2" transform="translate(-982.000000, -107.000000)">
+            <g id="Group-6" transform="translate(982.000000, 107.000000)">
+                <g id="Group-5" fill="url(#linearGradient-1)">
+                    <rect id="Rectangle" x="0" y="0" width="23" height="23" rx="3"></rect>
+                </g>
+                <g id="002-instagram" transform="translate(3.000000, 3.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M11.9356083,0 L5.06439167,0 C2.27187433,0 0,2.27187433 0,5.06439167 L0,11.9356083 C0,14.7281257 2.27187433,17 5.06439167,17 L11.9356083,17 C14.7281257,17 17,14.7281257 17,11.9356083 L17,5.06439167 C16.9999691,2.27187433 14.7280948,0 11.9356083,0 Z M15.2898006,11.9356083 C15.2898006,13.7880621 13.7880621,15.2898006 11.9356083,15.2898006 L5.06439167,15.2898006 C3.21193792,15.2898006 1.71019937,13.7880621 1.71019937,11.9356083 L1.71019937,5.06439167 C1.71019937,3.21190707 3.21193792,1.71019937 5.06439167,1.71019937 L11.9356083,1.71019937 C13.7880621,1.71019937 15.2898006,3.21190707 15.2898006,5.06439167 L15.2898006,11.9356083 L15.2898006,11.9356083 Z" id="Shape"></path>
+                    <path d="M8.5,4 C6.01869602,4 4,6.0187031 4,8.49998421 C4,10.9812653 6.01869602,13 8.5,13 C10.981304,13 13,10.9812969 13,8.49998421 C13,6.01867152 10.981304,4 8.5,4 Z M8.5,11.2496869 C6.98139169,11.2496869 5.75033856,10.0186294 5.75033856,8.50001579 C5.75033856,6.98140215 6.98142327,5.7503447 8.5,5.7503447 C10.0186083,5.7503447 11.2496614,6.98140215 11.2496614,8.50001579 C11.2496614,10.0185978 10.0185767,11.2496869 8.5,11.2496869 Z" id="Shape"></path>
+                    <circle id="Oval" cx="13" cy="4" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

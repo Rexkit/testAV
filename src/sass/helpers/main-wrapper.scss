@@ -1,0 +1,7 @@
+@import '../variables.scss';
+
+.main-wrapper {
+    position: relative;
+    width: $primary-wrapper-width;
+    margin: 0 auto;
+}

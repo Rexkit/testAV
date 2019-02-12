@@ -1,0 +1,126 @@
+.footer {
+    padding-top: 47px;
+
+    // &__wrapper {
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    &__menu, &__copyright {
+        margin-bottom: 20px;
+    }
+
+    &__menu {
+        display: block;
+        float: left;
+    }
+
+    &__info {
+        display: block;
+        float: left;
+    }
+
+    &__social {
+        float: left;
+        position: relative;
+        top: -40px;
+        right: -100px;
+    }
+
+    &__payment {
+        float: right;
+        position: relative;
+        top: -40px;
+    }
+
+    &__text, &__text-link, &__social-header, &__payment-header {
+        opacity: 0.6;
+        font-size: 1.4rem;
+        letter-spacing: 0.25px;
+        line-height: 17px;
+    }
+
+    &__t {
+        position: relative;
+        top: -5px;
+        font-size: 1.4rem;
+        letter-spacing: 0.31px;
+        line-height: 19px;
+    }
+
+    &__text {
+        display: inline-block; 
+        margin-right: 15px;
+
+        &-link {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        position: relative;
+        list-style: none;
+        font-size: 1.4rem;
+        letter-spacing: 0.22px;
+        line-height: 19px;
+        margin-right: 3rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.3);
+
+        &:hover {
+            color: rgb(0, 0, 0);
+            transition: 0.3s;
+        }
+
+        &_menu {
+            color: rgb(0, 0, 0);
+        }
+
+        &_active {
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    &__social, &__payment {
+        &-links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 13px;
+
+            a {
+                position: relative;
+                display: inline-block;
+
+                & .fb-img, & .vk-img, & .insta-img {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 99;
+                }
+
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+    &__social-links a:hover {
+        // img {
+        //     visibility: hidden;
+        // }
+
+        .fb-img, .vk-img, .insta-img {
+            display: inline;
+        }
+    }
+}

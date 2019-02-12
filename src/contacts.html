@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+</head>
+<body>
+    <div class="overflow-wrapper">
+        <header class="header">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="/"><img class="logo__img" src="./img/site-logo.png" alt="logo"></a>
+                </div>
+                <div class="main-nav__options">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_active" href="/">Частным лицам</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link" href="/">Бизнесу</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav__menu">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Услуги</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">О нас</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Блог</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="/">Вопросы</a></li>
+                        <li class="main-nav__item"><a class="main-nav__link main-nav__link_menu" href="./contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn__main-nav">Задать вопрос</button>
+            </nav>
+            <a href="javascript:void(0);" class="header__icon" onclick="resp()"><span class="main-nav__text">Меню</span><img src="./img/Group.png" alt="icon"></a>
+        </header>
+    </div>
+
+    <main>
+        <div id="map"></div>
+        <section class="connection">
+            <h2 class="connection__header">Звоните и пишите</h2>
+            <div class="connection__wrapper">
+                <div class="connection__card">
+                    <img src="./img/smartphone.svg" alt="phone">
+                    <div class="connection__direct">
+                        <a class="connection__link" href="tel:+78007071405">8 800 707 14 05</a>
+                        <div class="connection__text">Бесплатно по России</div>
+                    </div> 
+                </div>
+                <div class="connection__card">
+                    <img src="./img/contact-1.svg" alt="mail">
+                    <div class="connection__direct">
+                        <a class="connection__link" href="mailto:info@ponimau.ru">info@ponimau.ru</a>
+                        <div class="connection__text">Электронная почта</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts-social">
+            <h2 class="contacts-social__header">Социальные сети и месенджеры</h2>
+            <div class="contacts-social__btns">
+                <a href="/" class="contacts-social__link"><img src="./img/skype-btn.png" alt="skype" class="contacts-social__img"></a>
+                <a href="/" class="contacts-social__link"><img src="./img/fb-btn.png" alt="fb" class="contacts-social__img"></a>
+                <a href="/" class="contacts-social__link"><img src="./img/vk-btn.png" alt="vk" class="contacts-social__img"></a>
+                <a href="/" class="contacts-social__link"><img src="./img/telegram-btn.png" alt="telegram" class="contacts-social__img"></a>
+            </div>
+        </section>
+        <section class="requisites">
+            <h2 class="requisites__header">Реквизиты</h2>
+            <ul class="requisites__list">
+                <li class="requisites__item">ООО «МПЦ»</li>
+                <li class="requisites__item">105005, г. Москва, ул. Бауманская, д. 68/8, стр. 1, эт. 2, пом. 1, ком. 1-8, 8А, 9-12</li>
+                <li class="requisites__item">ИНН 7703418637</li>
+                <li class="requisites__item">КПП 770101001</li>
+                <li class="requisites__item">ОГРН 5167746255892</li>
+                <li class="requisites__item">Р/сч 40702810300014940313</li>
+                <li class="requisites__item">в ЮниКредит Банк АО</li>
+                <li class="requisites__item">БИК 044525545</li>
+                <li class="requisites__item">к/сч 30101810300000000545</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="main-wrapper footer__wrapper">
+            <div class="footer__menu">
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Услуги</a></li>
+                    <li class="footer__item"><a class="footer__link footer__link_menu" href="/">О нас</a></li>
+                    <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Блог</a></li>
+                    <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Вопросы</a></li>
+                    <li class="footer__item"><a class="footer__link footer__link_menu" href="/">Контакты</a></li>
+                </ul>  
+            </div>
+            <div class="footer__info">
+                <div class="footer__copyright">
+                    <p class="footer__text">© 2017, ООО «Международный Психологический Центр»</p>
+                    <a class="footer__text-link" href="/">Конфидициальность</a>
+                </div>
+                <div class="footer__logo">
+                    <span class="footer__t">Разработанно</span>
+                    <img src="./img/appvelox.png" alt="">
+                </div>
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-header">Мы в соцетях</div>
+                <div class="footer__social-links">
+                    <a class="fb" href="fb.com">
+                        <img src="./img/facebook1.svg" alt="fb1">
+                        <img class="fb-img" src="./img/facebook.svg" alt="fb">
+                    </a>
+                    <a class="vk" href="vk.com">
+                        <img src="./img/vk1.svg" alt="vk1">
+                        <img class="vk-img" src="./img/vk.svg" alt="vk">
+                    </a>
+                    <a class="insta" href="instagram.com">
+                        <img src="./img/insta1.svg" alt="insta1">
+                        <img class="insta-img" src="./img/insta.svg" alt="insta">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__payment">
+                <div class="footer__payment-header">Мы принимаем</div>
+                <div class="footer__payment-links">
+                    <a href="fb.com"><img src="./img/yandex.svg" alt="yandex"></a>
+                    <a href="vk.com"><img src="./img/visa.svg" alt="visa"></a>
+                    <a href="instagram.com"><img src="./img/mastercard.svg" alt="mastercard"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQhjOnL1mG_x1RI3mMCO3T0K-5x-MMV34&callback=initMap"></script>
+    <script src="./js/headerScroll.js"></script>
+    <script src="./js/headerDropdown.js"></script>
+    <script src="./js/map.js"></script>
+    
+</body>
+</html>

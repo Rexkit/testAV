@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 47px; }
+  .footer__menu, .footer__copyright {
+    margin-bottom: 20px; }
+  .footer__menu {
+    display: block;
+    float: left; }
+  .footer__info {
+    display: block;
+    float: left; }
+  .footer__social {
+    float: left;
+    position: relative;
+    top: -40px;
+    right: -100px; }
+  .footer__payment {
+    float: right;
+    position: relative;
+    top: -40px; }
+  .footer__text, .footer__text-link, .footer__social-header, .footer__payment-header {
+    opacity: 0.6;
+    font-size: 1.4rem;
+    letter-spacing: 0.25px;
+    line-height: 17px; }
+  .footer__t {
+    position: relative;
+    top: -5px;
+    font-size: 1.4rem;
+    letter-spacing: 0.31px;
+    line-height: 19px; }
+  .footer__text {
+    display: inline-block;
+    margin-right: 15px; }
+    .footer__text-link {
+      text-decoration: none;
+      color: #000; }
+  .footer__list {
+    display: flex; }
+  .footer__item {
+    position: relative;
+    list-style: none;
+    font-size: 1.4rem;
+    letter-spacing: 0.22px;
+    line-height: 19px;
+    margin-right: 3rem; }
+  .footer__link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3); }
+    .footer__link:hover {
+      color: black;
+      transition: 0.3s; }
+    .footer__link_menu {
+      color: black; }
+    .footer__link_active {
+      color: black; }
+  .footer__social-links, .footer__payment-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px; }
+    .footer__social-links a, .footer__payment-links a {
+      position: relative;
+      display: inline-block; }
+      .footer__social-links a .fb-img, .footer__social-links a .vk-img, .footer__social-links a .insta-img, .footer__payment-links a .fb-img, .footer__payment-links a .vk-img, .footer__payment-links a .insta-img {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99; }
+      .footer__social-links a img, .footer__payment-links a img {
+        vertical-align: middle; }
+  .footer__social-links a:hover .fb-img, .footer__social-links a:hover .vk-img, .footer__social-links a:hover .insta-img {
+    display: inline; }
