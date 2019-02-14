@@ -23,7 +23,7 @@ function initMap() {
         maxWidth: 450
     })
 
-    const mapImage = '/src/img/Oval%202.png';
+    const mapImage = '/img/Oval%202.png';
 
     let marker = new google.maps.Marker({
         position: mainPlace,

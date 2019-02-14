@@ -15,7 +15,8 @@
   .work-info__card {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px; }
+    margin-top: 60px;
+    outline: none; }
   .work-info__info {
     max-width: 520px; }
   .work-info__text {
