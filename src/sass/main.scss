@@ -19,6 +19,9 @@
 @import './contacts-social/contacts-social.scss';
 @import './requisites/requisites.scss';
 
+@import './questions/questions.scss';
+@import './questions-box/questions-box.scss';
+
 html {
     font-size: 10px;
     box-sizing: border-box;
@@ -47,3 +50,5 @@ main {
 }
 
 @import './media-index.scss';
+@import './media-contacts.scss';
+@import './media-questions.scss';

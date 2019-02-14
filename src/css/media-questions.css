@@ -1,0 +1,29 @@
+@media screen and (max-width: 1000px) {
+  .questions__wrapper {
+    width: 600px; }
+    .questions__wrapper-menu {
+      width: 600px; }
+  .questions__info {
+    width: 584px; } }
+
+@media screen and (max-width: 645px) {
+  .questions__header {
+    width: 223px;
+    margin-top: 35px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 0.14px;
+    line-height: 21px;
+    text-align: center; }
+  .questions__description {
+    width: 272px;
+    font-size: 1.4rem;
+    letter-spacing: 0.25px;
+    line-height: 22px;
+    text-align: center; }
+  .questions__wrapper {
+    width: 320px; }
+    .questions__wrapper-menu {
+      width: 320px; }
+  .questions__info {
+    display: none; } }
